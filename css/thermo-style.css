@@ -1,0 +1,105 @@
+@import url('reset.css');
+
+* {
+  font-family: sans-serif, verdana;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: -2vw;
+  font-size: 20vw;
+}
+
+h1.lowUsage{
+  color: #7FFF00;
+}
+
+h1.mediumUsage{
+  color: #FF8C00;
+}
+h1.highUsage {
+  color: #B22222;
+}
+
+h2.lowUsage {
+  background-color: #7FFF00;
+}
+
+h2.mediumUsage {
+  background-color: #FF8C00;
+}
+
+h2.highUsage {
+  background-color: #B22222;
+}
+
+h2 #ptext {
+  background-color: white;
+  padding-left: 2em;
+}
+
+#controlpanel{
+  float: left;
+  width: 60%;
+  height: 100vh;
+  text-align: left;
+}
+
+.power-bar{
+  height: 5em;
+  width: 30em;
+}
+
+button{
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button.increase-temp{
+  font-size: 3vw;
+}
+
+button.decrease-temp{
+  font-size: 3vw;
+}
+
+button.reset{
+  font-size: 3vw;
+}
+
+#power-text{
+  font-size: 3vw;
+}
+
+.PWS-mode{
+  font-size: 3vw;
+}
+
+main{
+  text-align: right;
+  padding-top: 20vw; 
+}
+
+
+
+.image{
+  float: left;
+  width: 40%;
+  height: 160vh;
+  background-color: black;
+  text-align: left;
+}
+
+#imagetext{
+  margin-left: -1.4em;
+  margin-top: 1.8em;
+  color: white;
+  font-family: sans-serif, verdana;
+  font-size: 16vw;
+  font-weight: bold;
+  -webkit-transform: rotate(90deg); 
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
