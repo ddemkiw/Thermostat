@@ -20,7 +20,3 @@ thermostat should color the display based on energy usage - < 18 is green, < 25 
 - Javascript
 - Jasmin
 
-dfs
-
-
-# Thermostat2
